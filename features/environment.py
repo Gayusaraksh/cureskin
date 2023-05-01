@@ -11,12 +11,15 @@ def browser_init(context,test_name):
     """
     :param context: Behave context
     """
-    service = Service(executable_path='../chromedriver')
-    # service = Service(executable_path='/Users/bala/Automation/python-selenium-automation/geckodriver')
-    context.driver = webdriver.Chrome(service=service)
-    # context.driver = webdriver.Firefox(service=service)
+    #service = Service(executable_path='../chromedriver')
+    service = Service(executable_path='../geckodriver')
+
+
+    # context.driver = webdriver.Chrome(service=service)
+    # context.driver = webdriver.Firefox(executable_path='../geckodriver')
     # context.browser = webdriver.Safari()
     # context.browser = webdriver.Firefox()
+    # context.driver.implicitly_wait(10)
 
 # Terminal command:
     # behave feature/tests/amazon_signin.feature
@@ -27,12 +30,14 @@ def browser_init(context,test_name):
 
 
     ## HEADLESS MODE ####
-    # options = webdriver.ChromeOptions()
-    # options.add_argument('--headless')
-    # context.driver = webdriver.Chrome(
-    #     chrome_options=options,
-    #     service=service
-    # )
+    options = webdriver.ChromeOptions()
+    options.add_argument("--window-size=1920,1080")
+    options.add_argument("--start-maximized")
+    options.add_argument('--headless')
+    context.driver = webdriver.Chrome(
+        chrome_options=options,
+        service=service
+    )
     # ### EventFiringWebDriver - log file ###
     ### for drivers ###
     # context.driver = EventFiringWebDriver(
