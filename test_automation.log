@@ -126,3 +126,85 @@ Stacktrace:
 2023-05-06 07:43:28,316 - support.logger - INFO - Started step: <when "Click on shop by category">
 2023-05-06 07:43:30,828 - support.logger - INFO - Started step: <when "Click on face option">
 2023-05-06 07:43:32,512 - support.logger - INFO - Started step: <then "Verify Face is present in first product name">
+2023-05-06 12:44:37,405 - support.logger - INFO - Started scenario: User can remove the product from the cart page by pressing the - button
+2023-05-06 12:44:43,371 - support.logger - INFO - Started step: <given "Open Cureskin shop page">
+2023-05-06 12:44:43,385 - support.logger - ERROR - Step failed: <given "Open Cureskin shop page">
+2023-05-06 12:45:02,984 - support.logger - INFO - Started scenario: User can remove the product from the cart page by pressing the - button
+2023-05-06 12:45:05,929 - support.logger - INFO - Started step: <given "Open Cureskin shop page">
+2023-05-06 12:45:05,936 - support.logger - ERROR - Step failed: <given "Open Cureskin shop page">
+2023-05-06 12:46:45,135 - support.logger - INFO - Started scenario: User can remove the product from the cart page by pressing the - button
+2023-05-06 12:46:48,438 - support.logger - INFO - Started step: <given "Open Cureskin shop page">
+2023-05-06 12:46:48,458 - support.logger - ERROR - Step failed: <given "Open Cureskin shop page">
+2023-05-06 12:49:00,020 - support.logger - INFO - Started scenario: User can see the word "face" in the first product name
+2023-05-06 12:49:03,743 - support.logger - INFO - Started step: <given "Open Cureskin shop page">
+2023-05-06 12:49:03,758 - support.logger - ERROR - Step failed: <given "Open Cureskin shop page">
+2023-05-06 12:49:03,938 - support.logger - INFO - Started scenario: User can see "face" header
+2023-05-06 12:49:05,431 - support.logger - INFO - Started step: <given "Open Cureskin shop page">
+2023-05-06 12:49:05,460 - support.logger - ERROR - Step failed: <given "Open Cureskin shop page">
+2023-05-06 12:50:50,181 - support.logger - INFO - Started scenario: Subscription successful message is displayed when user enters valid email
+2023-05-06 12:50:52,056 - support.logger - INFO - Started step: <given "Open Cureskin shop page">
+2023-05-06 12:50:52,078 - support.logger - ERROR - Step failed: <given "Open Cureskin shop page">
+2023-05-06 13:02:12,497 - support.logger - INFO - Started scenario: User can remove the product from the cart page by pressing the - button
+2023-05-06 13:02:16,923 - support.logger - INFO - Started step: <given "Open Cureskin shop page">
+2023-05-06 13:02:16,943 - support.logger - ERROR - Step failed: <given "Open Cureskin shop page">
+2023-05-06 13:06:00,615 - support.logger - INFO - Started scenario: User can remove the product from the cart page by pressing the - button
+2023-05-06 13:06:04,820 - support.logger - INFO - Started step: <given "Open Cureskin shop page">
+2023-05-06 13:06:12,611 - support.logger - ERROR - Step failed: <given "Open Cureskin shop page">
+2023-05-06 13:06:19,167 - support.logger - INFO - Started scenario: Subscription successful message is displayed when user enters valid email
+2023-05-06 13:06:22,041 - support.logger - INFO - Started step: <given "Open Cureskin shop page">
+2023-05-06 13:06:30,334 - support.logger - INFO - Started step: <when "Enter valid email id aaravsairam@gmail.com">
+2023-05-06 13:06:30,496 - support.logger - INFO - Started step: <when "Click on arrow">
+2023-05-06 13:06:30,896 - support.logger - INFO - Started step: <then "Verify Thanks for subscribing message is shown">
+2023-05-06 13:06:36,079 - support.logger - ERROR - Step failed: <then "Verify Thanks for subscribing message is shown">
+2023-05-06 13:07:12,983 - support.logger - INFO - Started scenario: Subscription successful message is displayed when user enters valid email
+2023-05-06 13:07:16,192 - support.logger - INFO - Started step: <given "Open Cureskin shop page">
+2023-05-06 13:07:24,250 - support.logger - INFO - Started step: <when "Enter valid email id aaravsairam@gmail.com">
+2023-05-06 13:07:24,447 - support.logger - INFO - Started step: <when "Click on arrow">
+2023-05-06 13:07:24,775 - support.logger - INFO - Started step: <then "Verify Thanks for subscribing message is shown">
+2023-05-06 13:07:28,803 - support.logger - ERROR - Step failed: <then "Verify Thanks for subscribing message is shown">
+2023-05-06 13:07:56,506 - support.logger - INFO - Started scenario: User can remove the product from the cart page by pressing the - button
+2023-05-06 13:08:00,238 - support.logger - INFO - Started step: <given "Open Cureskin shop page">
+2023-05-06 13:08:08,194 - support.logger - INFO - Started step: <when "Click on search">
+2023-05-06 13:08:09,008 - support.logger - INFO - Started step: <when "Enter the product name face foam">
+2023-05-06 13:08:09,084 - support.logger - INFO - Started step: <when "Click on product search button">
+2023-05-06 13:08:09,999 - support.logger - INFO - Started step: <when "Click the first item">
+2023-05-06 13:08:10,815 - support.logger - INFO - Started step: <when "Click add to cart button">
+2023-05-06 13:08:10,919 - support.logger - INFO - Started step: <when "Click on cart icon">
+2023-05-06 13:08:10,943 - support.logger - INFO - Started step: <when "Click on - button to reduce product quantity">
+2023-05-06 13:08:13,579 - support.logger - INFO - Started step: <then "Verify that Your cart is currently empty message is displayed">
+2023-05-06 13:08:42,160 - support.logger - INFO - Started scenario: User can remove the product from the cart page by pressing the - button
+2023-05-06 13:08:45,924 - support.logger - INFO - Started step: <given "Open Cureskin shop page">
+2023-05-06 13:08:54,013 - support.logger - INFO - Started step: <when "Click on search">
+2023-05-06 13:08:54,575 - support.logger - INFO - Started step: <when "Enter the product name face foam">
+2023-05-06 13:08:54,708 - support.logger - INFO - Started step: <when "Click on product search button">
+2023-05-06 13:08:55,378 - support.logger - INFO - Started step: <when "Click the first item">
+2023-05-06 13:08:55,936 - support.logger - INFO - Started step: <when "Click add to cart button">
+2023-05-06 13:08:56,038 - support.logger - INFO - Started step: <when "Click on cart icon">
+2023-05-06 13:08:56,076 - support.logger - INFO - Started step: <when "Click on - button to reduce product quantity">
+2023-05-06 13:08:58,466 - support.logger - INFO - Started step: <then "Verify that Your cart is currently empty message is displayed">
+2023-05-06 13:09:19,766 - support.logger - INFO - Started scenario: User can remove the product from the cart page by pressing the - button
+2023-05-06 13:09:21,881 - support.logger - INFO - Started step: <given "Open Cureskin shop page">
+2023-05-06 13:09:30,596 - support.logger - INFO - Started step: <when "Click on search">
+2023-05-06 13:09:31,205 - support.logger - INFO - Started step: <when "Enter the product name face foam">
+2023-05-06 13:09:31,274 - support.logger - INFO - Started step: <when "Click on product search button">
+2023-05-06 13:09:32,049 - support.logger - INFO - Started step: <when "Click the first item">
+2023-05-06 13:09:32,619 - support.logger - INFO - Started step: <when "Click add to cart button">
+2023-05-06 13:09:32,718 - support.logger - INFO - Started step: <when "Click on cart icon">
+2023-05-06 13:09:32,742 - support.logger - INFO - Started step: <when "Click on - button to reduce product quantity">
+2023-05-06 13:09:35,165 - support.logger - INFO - Started step: <then "Verify that Your cart is currently empty message is displayed">
+2023-05-06 13:10:20,496 - support.logger - INFO - Started scenario: Subscription successful message is displayed when user enters valid email
+2023-05-06 13:10:22,650 - support.logger - INFO - Started step: <given "Open Cureskin shop page">
+2023-05-06 13:10:31,410 - support.logger - INFO - Started step: <when "Enter valid email id aaravsairam@gmail.com">
+2023-05-06 13:10:31,527 - support.logger - INFO - Started step: <when "Click on arrow">
+2023-05-06 13:10:31,936 - support.logger - INFO - Started step: <then "Verify Thanks for subscribing message is shown">
+2023-05-06 13:10:35,978 - support.logger - ERROR - Step failed: <then "Verify Thanks for subscribing message is shown">
+2023-05-06 13:11:43,382 - support.logger - INFO - Started scenario: User can remove the product from the cart page by pressing the - button
+2023-05-06 13:11:45,613 - support.logger - INFO - Started step: <given "Open Cureskin shop page">
+2023-05-06 13:11:53,892 - support.logger - INFO - Started step: <when "Click on search">
+2023-05-06 13:11:54,465 - support.logger - INFO - Started step: <when "Enter the product name face foam">
+2023-05-06 13:11:54,525 - support.logger - INFO - Started step: <when "Click on product search button">
+2023-05-06 13:11:55,383 - support.logger - INFO - Started step: <when "Click the first item">
+2023-05-06 13:11:56,189 - support.logger - INFO - Started step: <when "Click add to cart button">
+2023-05-06 13:11:56,327 - support.logger - INFO - Started step: <when "Click on cart icon">
+2023-05-06 13:11:56,351 - support.logger - INFO - Started step: <when "Click on - button to reduce product quantity">
+2023-05-06 13:11:58,938 - support.logger - INFO - Started step: <then "Verify that Your cart is currently empty message is displayed">
