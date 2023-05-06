@@ -1,0 +1,123 @@
+2023-05-06 07:24:39,088 - support.logger - INFO - Started scenario: User can remove the product from the cart page by pressing the - button
+2023-05-06 07:25:26,815 - support.logger - INFO - Started step: <given "Open Cureskin shop page">
+2023-05-06 07:25:48,099 - support.logger - INFO - Searching by xpath '//button[@class="popup-close" and @type="button"]'...
+2023-05-06 07:25:48,577 - support.logger - INFO - Found by xpath '//button[@class="popup-close" and @type="button"]'
+2023-05-06 07:25:49,374 - support.logger - INFO - Started step: <when "Click on search">
+2023-05-06 07:25:49,374 - support.logger - INFO - Searching by xpath '//search-modal[@class="header__search"]'...
+2023-05-06 07:25:49,692 - support.logger - INFO - Found by xpath '//search-modal[@class="header__search"]'
+2023-05-06 07:25:51,009 - support.logger - INFO - Started step: <when "Enter the product name face foam">
+2023-05-06 07:25:51,009 - support.logger - INFO - Searching by css selector 'input#Search-In-Modal'...
+2023-05-06 07:25:51,212 - support.logger - INFO - Found by css selector 'input#Search-In-Modal'
+2023-05-06 07:25:52,209 - support.logger - INFO - Started step: <when "Click on product search button">
+2023-05-06 07:25:52,209 - support.logger - INFO - Searching by css selector 'button[type="submit"][class="search__button focus-inset"]'...
+2023-05-06 07:25:52,230 - support.logger - INFO - Found by css selector 'button[type="submit"][class="search__button focus-inset"]'
+2023-05-06 07:26:02,405 - support.logger - INFO - Started step: <when "Click the first item">
+2023-05-06 07:26:02,405 - support.logger - INFO - Searching by xpath '//a[contains(@href,"gentle-cleanse-face-foam")]'...
+2023-05-06 07:26:03,501 - support.logger - INFO - Found by xpath '//a[contains(@href,"gentle-cleanse-face-foam")]'
+2023-05-06 07:26:11,181 - support.logger - INFO - Started step: <when "Click add to cart button">
+2023-05-06 07:26:11,182 - support.logger - INFO - Searching by css selector 'button.product-form__submit.button.button--secondary.button--full-width'...
+2023-05-06 07:26:14,353 - support.logger - INFO - Found by css selector 'button.product-form__submit.button.button--secondary.button--full-width'
+2023-05-06 07:26:15,773 - support.logger - INFO - Started step: <when "Click on cart icon">
+2023-05-06 07:26:15,773 - support.logger - INFO - Searching by css selector 'span#cart-icon-bubble'...
+2023-05-06 07:26:15,814 - support.logger - INFO - Found by css selector 'span#cart-icon-bubble'
+2023-05-06 07:26:16,055 - support.logger - INFO - Started step: <when "Click on - button to reduce product quantity">
+2023-05-06 07:26:16,055 - support.logger - INFO - Searching by xpath '//button[@name="minus"]'...
+2023-05-06 07:26:17,419 - support.logger - INFO - Found by xpath '//button[@name="minus"]'
+2023-05-06 07:26:17,464 - support.logger - ERROR - Message: stale element reference: stale element not found
+  (Session info: chrome=113.0.5672.63)
+Stacktrace:
+0   chromedriver                        0x0000000105420598 chromedriver + 4973976
+1   chromedriver                        0x0000000105417913 chromedriver + 4938003
+2   chromedriver                        0x0000000104fd4cd6 chromedriver + 470230
+3   chromedriver                        0x0000000104fda0e8 chromedriver + 491752
+4   chromedriver                        0x0000000104fdc187 chromedriver + 500103
+5   chromedriver                        0x0000000104fdc28c chromedriver + 500364
+6   chromedriver                        0x000000010501a4f4 chromedriver + 754932
+7   chromedriver                        0x000000010500c461 chromedriver + 697441
+8   chromedriver                        0x000000010503c9c2 chromedriver + 895426
+9   chromedriver                        0x000000010500be51 chromedriver + 695889
+10  chromedriver                        0x000000010503cb7e chromedriver + 895870
+11  chromedriver                        0x0000000105057856 chromedriver + 1005654
+12  chromedriver                        0x000000010503c793 chromedriver + 894867
+13  chromedriver                        0x000000010500a21f chromedriver + 688671
+14  chromedriver                        0x000000010500b56e chromedriver + 693614
+15  chromedriver                        0x00000001053dabb7 chromedriver + 4688823
+16  chromedriver                        0x00000001053dfa51 chromedriver + 4708945
+17  chromedriver                        0x00000001053e640f chromedriver + 4736015
+18  chromedriver                        0x00000001053e091a chromedriver + 4712730
+19  chromedriver                        0x00000001053b387c chromedriver + 4528252
+20  chromedriver                        0x00000001053fff28 chromedriver + 4841256
+21  chromedriver                        0x00000001054000a7 chromedriver + 4841639
+22  chromedriver                        0x000000010541128f chromedriver + 4911759
+23  libsystem_pthread.dylib             0x00007ff816f9a4f4 _pthread_start + 125
+24  libsystem_pthread.dylib             0x00007ff816f9600f thread_start + 15
+
+2023-05-06 07:26:17,471 - support.logger - ERROR - Step failed: <when "Click on - button to reduce product quantity">
+2023-05-06 07:27:15,443 - support.logger - INFO - Started scenario: User can remove the product from the cart page by pressing the - button
+2023-05-06 07:27:27,412 - support.logger - INFO - Started step: <given "Open Cureskin shop page">
+2023-05-06 07:27:48,284 - support.logger - INFO - Searching by xpath '//button[@class="popup-close" and @type="button"]'...
+2023-05-06 07:27:49,025 - support.logger - INFO - Found by xpath '//button[@class="popup-close" and @type="button"]'
+2023-05-06 07:27:50,871 - support.logger - INFO - Started step: <when "Click on search">
+2023-05-06 07:27:50,871 - support.logger - INFO - Searching by xpath '//search-modal[@class="header__search"]'...
+2023-05-06 07:27:51,045 - support.logger - INFO - Found by xpath '//search-modal[@class="header__search"]'
+2023-05-06 07:27:52,309 - support.logger - INFO - Started step: <when "Enter the product name face foam">
+2023-05-06 07:27:52,325 - support.logger - INFO - Searching by css selector 'input#Search-In-Modal'...
+2023-05-06 07:27:52,452 - support.logger - INFO - Found by css selector 'input#Search-In-Modal'
+2023-05-06 07:27:53,435 - support.logger - INFO - Started step: <when "Click on product search button">
+2023-05-06 07:27:53,435 - support.logger - INFO - Searching by css selector 'button[type="submit"][class="search__button focus-inset"]'...
+2023-05-06 07:27:53,453 - support.logger - INFO - Found by css selector 'button[type="submit"][class="search__button focus-inset"]'
+2023-05-06 07:28:02,949 - support.logger - INFO - Started step: <when "Click the first item">
+2023-05-06 07:28:02,949 - support.logger - INFO - Searching by xpath '//a[contains(@href,"gentle-cleanse-face-foam")]'...
+2023-05-06 07:28:04,437 - support.logger - INFO - Found by xpath '//a[contains(@href,"gentle-cleanse-face-foam")]'
+2023-05-06 07:28:14,343 - support.logger - INFO - Started step: <when "Click add to cart button">
+2023-05-06 07:28:14,344 - support.logger - INFO - Searching by css selector 'button.product-form__submit.button.button--secondary.button--full-width'...
+2023-05-06 07:28:14,660 - support.logger - INFO - Found by css selector 'button.product-form__submit.button.button--secondary.button--full-width'
+2023-05-06 07:28:16,343 - support.logger - INFO - Started step: <when "Click on cart icon">
+2023-05-06 07:28:16,344 - support.logger - INFO - Searching by css selector 'span#cart-icon-bubble'...
+2023-05-06 07:28:18,233 - support.logger - INFO - Found by css selector 'span#cart-icon-bubble'
+2023-05-06 07:28:18,815 - support.logger - INFO - Started step: <when "Click on - button to reduce product quantity">
+2023-05-06 07:28:18,815 - support.logger - INFO - Searching by xpath '//button[@name="minus"]'...
+2023-05-06 07:28:18,920 - support.logger - INFO - Found by xpath '//button[@name="minus"]'
+2023-05-06 07:28:20,446 - support.logger - ERROR - Message: element click intercepted: Element <button class="quantity__button no-js-hidden" name="minus" type="button">...</button> is not clickable at point (1417, 216). Other element would receive the click: <section id="shopify-section-template--17185951023421__main" class="shopify-section section">...</section>
+  (Session info: chrome=113.0.5672.63)
+Stacktrace:
+0   chromedriver                        0x00000001046af598 chromedriver + 4973976
+1   chromedriver                        0x00000001046a6913 chromedriver + 4938003
+2   chromedriver                        0x0000000104263cd6 chromedriver + 470230
+3   chromedriver                        0x00000001042af533 chromedriver + 779571
+4   chromedriver                        0x00000001042acd5f chromedriver + 769375
+5   chromedriver                        0x00000001042aa184 chromedriver + 758148
+6   chromedriver                        0x00000001042a91de chromedriver + 754142
+7   chromedriver                        0x000000010429b671 chromedriver + 697969
+8   chromedriver                        0x00000001042cb9c2 chromedriver + 895426
+9   chromedriver                        0x000000010429ae51 chromedriver + 695889
+10  chromedriver                        0x00000001042cbb7e chromedriver + 895870
+11  chromedriver                        0x00000001042e6856 chromedriver + 1005654
+12  chromedriver                        0x00000001042cb793 chromedriver + 894867
+13  chromedriver                        0x000000010429921f chromedriver + 688671
+14  chromedriver                        0x000000010429a56e chromedriver + 693614
+15  chromedriver                        0x0000000104669bb7 chromedriver + 4688823
+16  chromedriver                        0x000000010466ea51 chromedriver + 4708945
+17  chromedriver                        0x000000010467540f chromedriver + 4736015
+18  chromedriver                        0x000000010466f91a chromedriver + 4712730
+19  chromedriver                        0x000000010464287c chromedriver + 4528252
+20  chromedriver                        0x000000010468ef28 chromedriver + 4841256
+21  chromedriver                        0x000000010468f0a7 chromedriver + 4841639
+22  chromedriver                        0x00000001046a028f chromedriver + 4911759
+23  libsystem_pthread.dylib             0x00007ff816f9a4f4 _pthread_start + 125
+24  libsystem_pthread.dylib             0x00007ff816f9600f thread_start + 15
+
+2023-05-06 07:28:20,452 - support.logger - ERROR - Step failed: <when "Click on - button to reduce product quantity">
+2023-05-06 07:29:41,351 - support.logger - INFO - Started scenario: User can see the word "face" in the first product name
+2023-05-06 07:29:53,244 - support.logger - INFO - Started step: <given "Open Cureskin shop page">
+2023-05-06 07:30:12,747 - support.logger - INFO - Searching by xpath '//button[@class="popup-close" and @type="button"]'...
+2023-05-06 07:30:13,564 - support.logger - INFO - Found by xpath '//button[@class="popup-close" and @type="button"]'
+2023-05-06 07:30:15,029 - support.logger - INFO - Started step: <when "Click on shop by category">
+2023-05-06 07:30:15,029 - support.logger - INFO - Searching by xpath '//span[@class='label'][text()='Shop by Category']'...
+2023-05-06 07:30:15,318 - support.logger - INFO - Found by xpath '//span[@class='label'][text()='Shop by Category']'
+2023-05-06 07:30:18,500 - support.logger - INFO - Started step: <when "Click on face option">
+2023-05-06 07:30:18,500 - support.logger - INFO - Searching by xpath '//span[@class='label'][text()='Face']'...
+2023-05-06 07:30:18,538 - support.logger - INFO - Found by xpath '//span[@class='label'][text()='Face']'
+2023-05-06 07:30:29,576 - support.logger - INFO - Started step: <then "Verify Face is present in first product name">
+2023-05-06 07:30:29,576 - support.logger - INFO - Searching by css selector 'a.card-information__text.h4[href="/collections/face/products/gentle-cleanse-face-foam"]'...
+2023-05-06 07:30:30,559 - support.logger - INFO - Found by css selector 'a.card-information__text.h4[href="/collections/face/products/gentle-cleanse-face-foam"]'
