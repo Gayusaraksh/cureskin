@@ -40,10 +40,10 @@ def browser_init(context,test_name):
     # )
     # ### EventFiringWebDriver - log file ###
     ### for drivers ###
-    context.driver = EventFiringWebDriver(
-        webdriver.Chrome(service=service),
-        MyListener()
-    )
+    # context.driver = EventFiringWebDriver(
+    #     webdriver.Chrome(service=service),
+    #     MyListener()
+    # )
     # for headless mode ###
     # context.driver = EventFiringWebDriver(webdriver.Chrome(chrome_options = options), MyListener())
 
@@ -51,19 +51,19 @@ def browser_init(context,test_name):
 
     # for browerstack ###
     # Register for BrowserStack, then grab it from https://www.browserstack.com/accounts/settings
-    # bs_user = 'gayu_BFN6ZX'
-    # bs_key = 'gCzyaA1qfpGgsTDB9Npq'
-    #
-    #
-    # desired_cap = {
-    #     'browserName': 'Firefox',
-    #     'os': 'Windows',
-    #     'osVersion': '10',
-    #     'sessionName': test_name
-    # }
-    #
-    # url = f'http://{bs_user}:{bs_key}@hub-cloud.browserstack.com/wd/hub'
-    # context.driver = webdriver.Remote(url, desired_capabilities=desired_cap)
+    bs_user = 'gayu_BFN6ZX'
+    bs_key = 'gCzyaA1qfpGgsTDB9Npq'
+
+
+    desired_cap = {
+        'browserName': 'Firefox',
+        'os': 'Windows',
+        'osVersion': '10',
+        'sessionName': test_name
+    }
+
+    url = f'http://{bs_user}:{bs_key}@hub-cloud.browserstack.com/wd/hub'
+    context.driver = webdriver.Remote(url, desired_capabilities=desired_cap)
 
     context.driver.maximize_window()
     context.driver.implicitly_wait(4)
