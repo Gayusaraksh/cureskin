@@ -208,3 +208,28 @@ Stacktrace:
 2023-05-06 13:11:56,327 - support.logger - INFO - Started step: <when "Click on cart icon">
 2023-05-06 13:11:56,351 - support.logger - INFO - Started step: <when "Click on - button to reduce product quantity">
 2023-05-06 13:11:58,938 - support.logger - INFO - Started step: <then "Verify that Your cart is currently empty message is displayed">
+2023-05-06 22:47:00,184 - support.logger - INFO - Started scenario: User can remove the product from the cart page by pressing the - button
+2023-05-06 22:56:52,844 - support.logger - INFO - Started scenario: User can remove the product from the cart page by pressing the - button
+2023-05-06 23:04:46,285 - support.logger - INFO - Started scenario: User can remove the product from the cart page by pressing the - button
+2023-05-07 07:51:39,161 - support.logger - INFO - Started scenario: User can remove the product from the cart page by pressing the - button
+2023-05-07 07:52:53,621 - support.logger - INFO - Started scenario: User can remove the product from the cart page by pressing the - button
+2023-05-07 07:53:25,620 - support.logger - INFO - Started scenario: User can remove the product from the cart page by pressing the - button
+2023-05-07 07:55:55,986 - support.logger - INFO - Started scenario: User can remove the product from the cart page by pressing the - button
+2023-05-07 07:57:06,890 - support.logger - INFO - Started scenario: User can remove the product from the cart page by pressing the - button
+2023-05-07 07:57:24,933 - support.logger - INFO - Started scenario: User can remove the product from the cart page by pressing the - button
+2023-05-07 07:58:14,445 - support.logger - INFO - Started scenario: User can remove the product from the cart page by pressing the - button
+2023-05-07 07:58:16,092 - support.logger - INFO - Started step: <given "Open Cureskin shop page">
+2023-05-07 07:58:24,627 - support.logger - INFO - Started step: <when "Click on search">
+2023-05-07 07:58:24,639 - support.logger - ERROR - Step failed: <when "Click on search">
+2023-05-07 07:59:54,231 - support.logger - INFO - Started scenario: User can remove the product from the cart page by pressing the - button
+2023-05-07 07:59:56,098 - support.logger - INFO - Started step: <given "Open Cureskin shop page">
+2023-05-07 08:00:12,085 - support.logger - INFO - Started step: <when "Click on search">
+2023-05-07 08:00:12,096 - support.logger - ERROR - Step failed: <when "Click on search">
+2023-05-07 08:01:10,974 - support.logger - INFO - Started scenario: User can remove the product from the cart page by pressing the - button
+2023-05-07 08:01:12,659 - support.logger - INFO - Started step: <given "Open Cureskin shop page">
+2023-05-07 08:01:28,801 - support.logger - INFO - Started step: <when "Click on search">
+2023-05-07 08:01:28,811 - support.logger - ERROR - Step failed: <when "Click on search">
+2023-05-07 08:03:30,521 - support.logger - INFO - Started scenario: User can remove the product from the cart page by pressing the - button
+2023-05-07 08:03:34,339 - support.logger - INFO - Started step: <given "Open Cureskin shop page">
+2023-05-07 08:03:50,309 - support.logger - INFO - Started step: <when "Click on search">
+2023-05-07 08:03:50,325 - support.logger - ERROR - Step failed: <when "Click on search">

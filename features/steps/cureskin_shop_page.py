@@ -12,7 +12,7 @@ def open_cureskin_shop(context):
     whandle=context.driver.window_handles[0]
     context.driver.switch_to.window(whandle)
     # (context.driver.find_element(By.XPATH,'//div[@class="popup__content-wrapper"]'))
-    time.sleep(2)
+    time.sleep(10)
     context.driver.find_element(By.XPATH,'//button[@class="popup-close" and @type="button"]').click()
 
 

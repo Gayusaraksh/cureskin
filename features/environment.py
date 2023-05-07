@@ -1,22 +1,33 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from app.application import Application
 from support.logger import logger
 from selenium.webdriver.support.events import EventFiringWebDriver
 from support.logger import logger, MyListener
+from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.firefox import GeckoDriverManager
+
+
+
+class Firefox:
+    pass
+
 
 def browser_init(context,test_name):
     """
     :param context: Behave context
     """
-    service = Service(executable_path='../chromedriver')
-    # service = Service(executable_path='../geckodriver')
+    #service = Service(executable_path='../chromedriver')
+    service = Service(executable_path='../geckodriver')
 
 
-    context.driver = webdriver.Chrome(service=service)
-    # context.driver = webdriver.Firefox(executable_path='../geckodriver')
+    #context.driver = webdriver.Chrome(service=service)
+    # context.driver = webdriver.Firefox(service=service)
     # context.browser = webdriver.Safari()
     # context.browser = webdriver.Firefox()
     # context.driver.implicitly_wait(10)
@@ -38,7 +49,17 @@ def browser_init(context,test_name):
     #     chrome_options=options,
     #     service=service
     # )
-    # ### EventFiringWebDriver - log file ###
+
+    options = webdriver.FirefoxOptions()
+    options.add_argument("--window-size=1920,1080")
+    options.add_argument("--start-maximized")
+    # options.add_argument("-headless")
+    context.driver = webdriver.Firefox(
+        options=options,
+        service=service
+    )
+
+    ### EventFiringWebDriver - log file ###
     ### for drivers ###
     # context.driver = EventFiringWebDriver(
     #     webdriver.Chrome(service=service),
